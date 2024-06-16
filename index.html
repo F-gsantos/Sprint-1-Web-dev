@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprint 1 - Web-dev</title>
     <style>
-        nav{
-            width: 100%;
-        }
         ul{
             display: flex;
             justify-content: center;
@@ -22,15 +19,14 @@
         .carousel{
             display: flex;
         }
+        main{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/index.html">home</a></li>
-            <li><a href="/login.html">login</a></li>
-        </ul>
-    </nav>
     <header>
         <div class="container">
             <h1>Formula E</h1>
@@ -47,41 +43,28 @@
             </nav>
         </div>
     </header>
-
     <main>
         <section id="noticias" class="container">
-            <h2>Noticias</h2>
-            
+            <h2>Noticias</h2>           
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deleniti vel alias enim. Expedita saepe illo nemo odio sunt. Harum hic ducimus nemo enim unde error provident ad ratione. Iure.</p>
-        </section>
-
-        
-        
+        </section>       
         <section id="para-voce" class="container">
-            <h2>Para Você</h2>
-            
+            <h2>Para Você</h2>           
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deleniti vel alias enim. Expedita saepe illo nemo odio sunt. Harum hic ducimus nemo enim unde error provident ad ratione. Iure.</p>
         </section>
-
         <section id="corridas" class="container">
-            <h2>Corridas</h2>
-            
+            <h2>Corridas</h2>         
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deleniti vel alias enim. Expedita saepe illo nemo odio sunt. Harum hic ducimus nemo enim unde error provident ad ratione. Iure.</p>
         </section>
-
         <section id="pit-stop" class="container">
             <h2>Pit-Stop</h2>
-            
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deleniti vel alias enim. Expedita saepe illo nemo odio sunt. Harum hic ducimus nemo enim unde error provident ad ratione. Iure.</p>
         </section>
-
-
     <div class="carousel" id="carousel">
         <button class="left" onclick="goBack()"><</button>
         <img src="https://resources.formula-e.pulselive.com/photo-resources/2024/04/25/73b3fedf-6c60-4dd0-9fd6-a995ff8e1af6/skIeg4Dz.jpg?width=1440&height=810" alt="" id="carousel-img" />
         <button class="right" onclick="goForward()">></button>
       </div>
       <script src="carousel.js"></script>
-      <!-- Só falta add as imagens igual na parte de Js -->
 </body>
 </html>
