@@ -11,4 +11,6 @@ Desenvolvimento da Sprint de Web-dev utilizando Java script e Html.
 
 - Guilherme Arendt ( RM - 554962 )
 
-- Pedro Polido (RM - 555556)
+- Pedro Polido ( RM - 555556 )
+
+- Matheus Hisamoto ( RM - 555447 )
