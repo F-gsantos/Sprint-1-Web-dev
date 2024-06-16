@@ -22,4 +22,7 @@ const ListOfImgs = [
         img.src = ListOfImgs[0];
       }
     }
+    function Login() {
+      window.location.href="login.html";
+    }
     

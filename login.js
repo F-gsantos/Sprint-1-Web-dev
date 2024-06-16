@@ -2,7 +2,7 @@ function Login() {
     window.location.href="login.html";
 }
 function voltar(){
-    window.history.back()
+    window.location.href = "index.html"
 }
 
 function UsuarioSenha() {
