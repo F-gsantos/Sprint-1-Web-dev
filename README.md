@@ -13,4 +13,3 @@ Desenvolvimento da Sprint de Web-dev utilizando Java script e Html.
 
 - Pedro Polido ( RM - 555556 )
 
-- Matheus Hisamoto ( RM - 555447 )
